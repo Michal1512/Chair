@@ -149,8 +149,8 @@ header {
 
         button {
             border-radius: 10px;
-           margin-top: -8px;
-            margin-right:12px;
+            margin-top: -8px;
+            margin-right: 12px;
             width: 264px;
             height: 53px;
             background-color: #24baa0;
@@ -195,8 +195,8 @@ header {
     .CLAIR {
         Height: 330px;
         position: relative;
-        top:10px;
-        right:5px;
+        top: 10px;
+        right: 5px;
 
         .White {
             width: 355px;
@@ -285,7 +285,7 @@ header {
             background-color: #27c7ab;
             position: relative;
             top: 46px;
-            left:20px;
+            left: 20px;
         }
 
         .Foot {
@@ -332,7 +332,7 @@ header {
         top: 75px;
     }
 
-    .Entire{
+    .Entire {
         width: 100%;
         display: flex;
         justify-content: start;
@@ -351,9 +351,9 @@ header {
             .Basic:Before {
                 content: '';
                 border: solid 2px gray;
-                background: white;
-                padding: 25px;
-                border-radius: 50%;
+                background: black;
+                padding: 500px;
+
 
             }
 
@@ -362,8 +362,7 @@ header {
                 border: solid 11px black;
                 border-radius: 50%;
                 position: absolute;
-                left: 148px;
-                bottom: 490px;
+
             }
 
             .Plan {
@@ -393,6 +392,7 @@ header {
 
 
                 .Eight {
+                    width: 50px;
                     width: 50px;
                     height: 39px;
                     color: #c2c2c2;
@@ -489,7 +489,7 @@ header {
             position: relative;
             Top: 150px;
             left: 145px;
-margin-left: 28px;
+            margin-left: 28px;
 
             .Standard:Before {
                 content: '';
@@ -512,7 +512,7 @@ margin-left: 28px;
             }
 
             .Plan {
-                color: #27c7ab;
+                color: #ffffff;;
                 font-size: 26px;
                 font-weight: 400;
                 line-height: 20px;
@@ -620,18 +620,20 @@ margin-left: 28px;
                 }
             }
         }
+
         .Advice {
-            width: 180px;
+
             height: 500px;
-            background: black;
+
 
             width: 326px;
-            height: 497px;
+
             border: 2px solid #d6d5d5;
             background-color: #f9f9f9;
             position: relative;
             Top: 150px;
             left: 145px;
+            margin-left:32px;
 
 
             .Advice:Before {
@@ -653,7 +655,6 @@ margin-left: 28px;
                 left: 148px;
                 bottom: 490px;
             }
-
             .Plan {
                 color: #27c7ab;
                 font-size: 26px;
@@ -737,7 +738,7 @@ margin-left: 28px;
                 height: 46px;
                 background: #e6e6e6;
                 position: relative;
-                top: 196px;
+           top:20px;
                 color: #787878;
                 font-size: 24px;
                 font-weight: 400;
@@ -746,8 +747,8 @@ margin-left: 28px;
 
             .Join {
                 position: relative;
-                top: 300px;
-                left: 100px;
+top:130px;
+
 
 
                 button {
@@ -763,5 +764,8 @@ margin-left: 28px;
                 }
             }
         }
-    }
-}
+
+            }
+        }
+
+
