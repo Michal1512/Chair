@@ -32,6 +32,7 @@ header {
                 letter-spacing: 0.7px;
 
             }
+
         }
 
         ul {
@@ -128,7 +129,7 @@ header {
             line-height: 20.37px;
             text-transform: uppercase;
 
-            font-weight: 500;
+
 
 
             span {
@@ -370,7 +371,7 @@ header {
                 width: 125px;
                 position: absolute;
                 top: 80px;
-                left: 97px;
+                left: 99px;
             }
 
             .Cont {
@@ -409,6 +410,16 @@ header {
                     position: relative;
                     top: 65px;
                     left: 128px;
+                }
+                .PLN{
+                    color: #c6c6c6;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    right:120px;
+                    top:160px;
                 }
             }
 
@@ -533,7 +544,7 @@ header {
                 width: 125px;
                 position: absolute;
                 top: 80px;
-                left: 97px;
+                left: 99px;
             }
 
             .Cont {
@@ -542,35 +553,45 @@ header {
                 .Eight {
                     width: 50px;
                     height: 39px;
-                    color: #c2c2c2;
+                    color: #27c7ab;
                     font-size: 45px;
                     font-weight: 700;
                     line-height: 20px;
                     position: relative;
-                    top: 100px;
-                    left: 130px;
+                    top: 88px;
+                    left: 131px;
                 }
 
                 .Five {
                     width: 50px;
                     height: 39px;
-                    color: #c2c2c2;
+                    color: #27c7ab;
                     font-size: 45px;
                     font-weight: 700;
                     line-height: 20px;
                     position: relative;
-                    top: 70px;
-                    left: 128px;
+                    top: 87px;
+                    left: 132px;
                 }
 
                 Span {
-                    color: #c2c2c2;
+                    color: #27c7ab;
                     font-size: 16px;
                     font-weight: 700;
                     line-height: 20px;
                     position: relative;
-                    top: 90px;
-                    left: 105px;
+                    top: 60px;
+                    left: 133px;
+                }
+                .PLN{
+                    color: #27c7ab;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    right:120px;
+                    top:160px;
                 }
             }
 
@@ -714,7 +735,7 @@ header {
                 width: 125px;
                 position: absolute;
                 top: 80px;
-                left: 97px;
+                left: 99px;
             }
 
             .Cont {
@@ -728,20 +749,9 @@ header {
                     font-weight: 700;
                     line-height: 20px;
                     position: relative;
-                    top: 105px;
-                    left: 122px;
-                }
-
-                .Five {
-                    width: 50px;
-                    height: 39px;
-                    color: #c2c2c2;
-                    font-size: 45px;
-                    font-weight: 700;
-                    line-height: 20px;
-                    position: relative;
-                    top: 105px;
-                    left: 110px;
+                    top: 90px;
+                    left: 114px;
+                    margin-left: 2px;
                 }
 
                 Span {
@@ -750,8 +760,18 @@ header {
                     font-weight: 700;
                     line-height: 20px;
                     position: relative;
-                    top: 90px;
-                    left: 130px;
+                    top: 65px;
+                    left: 119px;
+                }
+                .PLN{
+                    color: #c6c6c6;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    right:120px;
+                    top:160px;
                 }
             }
 
@@ -776,7 +796,7 @@ header {
                 height: 46px;
                 background: #e6e6e6;
                 position: relative;
-           top:26px;
+                top:26px;
                 color: #787878;
                 font-size: 24px;
                 font-weight: 400;
