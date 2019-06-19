@@ -504,25 +504,6 @@ header {
             left: 145px;
             margin-left: 28px;
 
-            .Standard:Before {
-                content: '';
-                border: solid 2px gray;
-                background: white;
-                padding: 25px;
-                border-radius: 50%;
-                position: absolute;
-                left: 133px;
-                bottom: 476px;
-            }
-
-            .Standard:After {
-                content: " ";
-                border: solid 11px black;
-                border-radius: 50%;
-                position: absolute;
-                left: 148px;
-                bottom: 490px;
-            }
 
             .Plan {
                 color: #ffffff;;
@@ -665,7 +646,7 @@ header {
         .Standard:Before {
             content: '';
             border: solid 2px gray;
-            background: white;
+            background: #27c7ab;
             padding: 19px;
             border-radius: 50%;
             position: relative;
@@ -675,11 +656,12 @@ header {
 
         .Standard:After {
             content: " ";
-            border: solid 10px black;
+            border: solid 10px white;
             border-radius: 50%;
             position: relative;
             left:149px;
             bottom:255px;
+
         }
         .Advice {
 
@@ -701,7 +683,7 @@ header {
                 border: solid 2px green ;
                 background: green;
                 padding: 25px;
-                border-radius: 50%;
+                border-radius: 100%;
                 position: absolute;
                 left: 133px;
                 bottom: 476px;
@@ -710,7 +692,7 @@ header {
             .Advice:After {
                 content: " ";
                 border: solid 11px white;
-                border-radius: 50%;
+                border-radius: 100%;
                 position: absolute;
                 left: 148px;
                 bottom: 490px;
@@ -876,6 +858,8 @@ top:130px;
 .Call {
     Width: 100%;
     height: 655px;
+    display:flex;
+    justify-content: center;
     .Left{
         height: 655px;
         width:66%;
@@ -953,8 +937,59 @@ top:130px;
         .Copy{
             width: 633px;
             height: 190px;
-            top:1920px;
-            left:148px;
+        position: absolute;
+            top:2205px;
+            left:145px;
+            color: #9b9b9b;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21.37px;
         }
 }
+}
+.Right{
+    height: 655px;
+    width:34%;
+.Chair{
+
+    position: absolute;
+    top:1700px;
+    left:855px;
+}
+    .Okimg{
+
+.Personal {
+    width: 300px;
+    height: 42px;
+    position: absolute;
+    top: 1950px;
+    right: 150px;
+
+    span {
+        color: #aeaeae;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22.37px;
+    }
+}
+.Border{
+    width: 51px;
+    height: 47px;
+    border: 1px solid rgba(36, 186, 160, 0.42);
+    position: absolute;
+    top:1950px;
+    right:464px;
+}
+        button{
+            background-color: #27c7ab;
+            border-radius: 5px;
+            width: 122px;
+            height: 34px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+    }
 }
