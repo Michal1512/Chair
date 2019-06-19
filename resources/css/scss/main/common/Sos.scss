@@ -876,6 +876,10 @@ top:130px;
 .Call {
     Width: 100%;
     height: 655px;
+    .Left{
+        height: 655px;
+        width:66%;
+
     .Conect {
         color: black;
         font-size: 22px;
@@ -893,7 +897,64 @@ top:130px;
         top:1685px;
         width: 320px;
         height: 8px;
-
-
     }
+        .Button{
+            width: 633px;
+            height: 64px;
+            border: 1px solid rgba(36, 186, 160, 0.42);
+            position: absolute;
+            top:1737px;
+            left:148px;
+            .Name{
+                color: #cacaca;
+                font-size: 33px;
+                font-weight: 300;
+                line-height: 20.37px;
+                position: relative;
+                top:20px;
+                left:10px;
+            }
+        }
+        .ButtonTwo{
+            width: 633px;
+            height: 64px;
+            border: 1px solid rgba(36, 186, 160, 0.42);
+            position: absolute;
+            top:1829px;
+            left:148px;
+            .Email{
+                color: #cacaca;
+                font-size: 33px;
+                font-weight: 300;
+                line-height: 20.37px;
+                position: relative;
+                top:20px;
+                left:10px;
+
+            }
+        }
+        .ButtonThree{  width: 633px;
+            height: 190px;
+            border: 1px solid rgba(36, 186, 160, 0.42);
+            position: absolute;
+            top:1920px;
+            left:148px;
+            .Message{
+                color: #cacaca;
+                font-size: 33px;
+                font-weight: 300;
+                line-height: 20.37px;
+                position: relative;
+                top:20px;
+                left:10px;
+            }
+
+        }
+        .Copy{
+            width: 633px;
+            height: 190px;
+            top:1920px;
+            left:148px;
+        }
+}
 }
