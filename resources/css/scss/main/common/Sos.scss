@@ -956,40 +956,46 @@ top:130px;
     top:1700px;
     left:855px;
 }
-    .Okimg{
+    .Okimg {
 
-.Personal {
-    width: 300px;
-    height: 42px;
-    position: absolute;
-    top: 1950px;
-    right: 150px;
+        .Personal {
+            width: 300px;
+            height: 42px;
+            position: absolute;
+            top: 1950px;
+            right: 150px;
 
-    span {
-        color: #aeaeae;
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 22.37px;
-    }
-}
-.Border{
-    width: 51px;
-    height: 47px;
-    border: 1px solid rgba(36, 186, 160, 0.42);
-    position: absolute;
-    top:1950px;
-    right:464px;
-}
-        button{
-            background-color: #27c7ab;
-            border-radius: 5px;
-            width: 122px;
-            height: 34px;
-            color: #ffffff;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 20px;
-            text-transform: uppercase;
+            span {
+                color: #aeaeae;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 22.37px;
+            }
+        }
+
+        .Border {
+            width: 51px;
+            height: 47px;
+            border: 1px solid rgba(36, 186, 160, 0.42);
+            position: absolute;
+            top: 1950px;
+            right: 464px;
         }
     }
+        .Send {
+            position: absolute;
+            top:2035px;
+            right:170px;
+            button {
+                background-color: #27c7ab;
+                border-radius: 5px;
+                width: 343px;
+                height: 71px;
+                color: #ffffff;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 20.37px;
+                text-transform: uppercase;
+            }
+        }
 }
