@@ -934,22 +934,23 @@ top:130px;
             }
 
         }
-        .Copy{
-            width: 633px;
-            height: 190px;
-        position: absolute;
-            top:2205px;
-            left:145px;
-            color: #9b9b9b;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 21.37px;
-        }
+        //.Copy{
+        //    width: 633px;
+        //    height: 190px;
+        //position: absolute;
+        //    top:2205px;
+        //    left:145px;
+        //    color: #9b9b9b;
+        //    font-size: 16px;
+        //    font-weight: 500;
+        //    line-height: 21.37px;
+        //}
 }
 }
 .Right{
-    height: 655px;
     width:34%;
+    height: 655px;
+
 .Chair{
 
     position: absolute;
@@ -998,4 +999,70 @@ top:130px;
                 text-transform: uppercase;
             }
         }
+                footer{
+                    width: 633px;
+                    height: 190px;
+                    position: absolute;
+                    top:2185px;
+                    left:145px;
+                    color: #9b9b9b;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 21.37px;
+
+                .Ok{
+                    position: relative;
+                    left:325px;
+                    top:5px;
+                }
+                    .Vimeo{
+                        position: relative;
+                        left:325px;
+                        top:5px;
+                    }
+                    .Print{
+                        position: relative;
+                        left:325px;
+                        top:5px;
+                    }
+                    .Twitter{
+                        position: relative;
+                        left:325px;
+                        top:5px;
+                    }
+
+                    .Sit{
+                        color: #9b9b9b;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 21.37px;
+                        text-transform: uppercase;
+                        position: relative;
+                        left:385px;
+                    }
+                    .On{
+                        color: #9b9b9b;
+                        font-size: 20px;
+                        line-height: 21.37px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        position: relative;
+                        left:386px;
+
+                    }
+                    .Chairfoot{
+
+                        color: #9b9b9b;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 21.37px;
+                        text-transform: uppercase;
+                        position: relative;
+                        left:990px;
+                        bottom:20px;
+                    }
+            }
 }
+
+
