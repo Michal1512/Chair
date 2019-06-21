@@ -1,0 +1,557 @@
+.background {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 730px;
+
+
+    .Prizes {
+        width: 81px;
+        height: 3px;
+        color: #575757;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 20.37px;
+        text-transform: uppercase;
+        position: relative;
+        top: 46px;
+        left: 141px;
+
+    }
+
+    .blue {
+        width: 320px;
+        height: 8px;
+        background-color: #27c7ab;
+        position: relative;
+        left: 141px;
+        top: 75px;
+    }
+
+    .Entire {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+
+        .Basic {
+
+            width: 330px;
+            height: 500px;
+            border: 2px solid #d6d5d5;
+            background-color: #f9f9f9;
+            position: relative;
+            Top: 150px;
+            left: 145px;
+
+
+            .Plan {
+                color: #27c7ab;
+                font-size: 26px;
+                font-weight: 400;
+                line-height: 20px;
+                text-transform: uppercase;
+                text-align: center;
+                position: relative;
+                top: 30px;
+            }
+
+            .Circle {
+                border: solid 2px gray;
+                background: white;
+                padding: 25px;
+                border-radius: 50%;
+                height: 130px;
+                width: 125px;
+                position: absolute;
+                top: 80px;
+                left: 99px;
+            }
+
+            .Cont {
+
+
+                .Eight {
+                    width: 50px;
+                    width: 50px;
+                    height: 39px;
+                    color: #c2c2c2;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 90px;
+                    left: 128px;
+                }
+
+                .Five {
+                    width: 50px;
+                    height: 39px;
+                    color: #c2c2c2;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 90px;
+                    left: 130px;
+                }
+
+                Span {
+                    color: #c2c2c2;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 65px;
+                    left: 128px;
+                }
+
+                .PLN {
+                    color: #c6c6c6;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    right: 120px;
+                    top: 160px;
+                }
+            }
+
+            .Buy {
+
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background: #d9d9d9;
+                position: relative;
+                top: 196px;
+                color: #939393;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+
+
+            }
+
+            .Service {
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background: #e6e6e6;
+                position: relative;
+                top: 196px;
+                color: #787878;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+
+            .Join {
+                position: relative;
+                top: 300px;
+                left: 100px;
+
+
+                button {
+                    background: #27c7ab;
+                    border-radius: 5px;
+                    width: 122px;
+                    height: 34px;
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .Basic:Before {
+            content: '';
+            border: solid 2px gray;
+            background: white;
+            padding: 19px;
+            border-radius: 50%;
+            position: relative;
+            left: 138px;
+            bottom: 22px;
+        }
+
+        .Basic:After {
+            content: " ";
+            border: solid 10px black;
+            border-radius: 50%;
+            position: relative;
+            left: 149px;
+            bottom: 210px;
+        }
+
+        .Standard {
+
+
+            background-color: #27c7ab;
+
+            width: 330px;
+            height: 500px;
+            border: 2px solid #27c7ab;
+
+            position: relative;
+            Top: 150px;
+            left: 145px;
+            margin-left: 28px;
+
+
+            .Plan {
+                color: #ffffff;;
+                font-size: 26px;
+                font-weight: 400;
+                line-height: 20px;
+                text-transform: uppercase;
+                text-align: center;
+                position: relative;
+                top: 30px;
+            }
+
+            .Circle {
+                border: solid 2px gray;
+                background: white;
+                padding: 25px;
+                border-radius: 50%;
+                height: 130px;
+                width: 125px;
+                position: absolute;
+                top: 80px;
+                left: 99px;
+            }
+
+            .Cont {
+
+
+                .Eight {
+                    width: 50px;
+                    height: 39px;
+                    color: #27c7ab;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 88px;
+                    left: 131px;
+                }
+
+                .Five {
+                    width: 50px;
+                    height: 39px;
+                    color: #27c7ab;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 87px;
+                    left: 132px;
+                }
+
+                Span {
+                    color: #27c7ab;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 60px;
+                    left: 133px;
+                }
+
+                .PLN {
+                    color: #27c7ab;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    right: 120px;
+                    top: 160px;
+                }
+            }
+
+            .Buy {
+
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background: white;
+                position: relative;
+                top: 196px;
+                color: #939393;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+
+
+            }
+
+            .Service {
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background-color: #f1f1f1;
+                position: relative;
+                top: 196px;
+                color: #787878;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+
+            .warranty {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 46px;
+                background: white;
+                position: relative;
+                top: 196px;
+                color: #939393;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+
+            }
+
+            .Join {
+                position: relative;
+                top: 300px;
+                left: 100px;
+
+
+                button {
+                    background: #27c7ab;
+                    border-radius: 5px;
+                    width: 122px;
+                    height: 34px;
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: relative;
+                    bottom: 47px;
+                    left: 5px;
+                }
+            }
+        }
+
+        .Standard:Before {
+            content: '';
+            border: solid 2px gray;
+            background: #27c7ab;
+            padding: 19px;
+            border-radius: 50%;
+            position: relative;
+            left: 138px;
+            bottom: 22px;
+        }
+
+        .Standard:After {
+            content: " ";
+            border: solid 10px white;
+            border-radius: 50%;
+            position: relative;
+            left: 149px;
+            bottom: 255px;
+
+        }
+
+        .Advice {
+
+            height: 500px;
+
+
+            width: 326px;
+
+            border: 2px solid #d6d5d5;
+            background-color: #f9f9f9;
+            position: relative;
+            Top: 150px;
+            left: 145px;
+            margin-left: 32px;
+
+
+            .Advice:Before {
+                content: " ";
+                border: solid 2px green;
+                background: green;
+                padding: 25px;
+                border-radius: 100%;
+                position: absolute;
+                left: 133px;
+                bottom: 476px;
+            }
+
+            .Advice:After {
+                content: " ";
+                border: solid 11px white;
+                border-radius: 100%;
+                position: absolute;
+                left: 148px;
+                bottom: 490px;
+            }
+
+            .Plan {
+                color: #27c7ab;
+                font-size: 26px;
+                font-weight: 400;
+                line-height: 20px;
+                text-transform: uppercase;
+                text-align: center;
+                position: relative;
+                top: 30px;
+            }
+
+            .Circle {
+                border: solid 2px gray;
+                background: white;
+                padding: 25px;
+                border-radius: 50%;
+                height: 130px;
+                width: 125px;
+                position: absolute;
+                top: 80px;
+                left: 99px;
+            }
+
+            .Cont {
+
+
+                .Eight {
+                    width: 50px;
+                    height: 39px;
+                    color: #c2c2c2;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 90px;
+                    left: 114px;
+                    margin-left: 2px;
+                }
+
+                Span {
+                    color: #c2c2c2;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    position: relative;
+                    top: 65px;
+                    left: 119px;
+                }
+
+                .PLN {
+                    color: #c6c6c6;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    right: 120px;
+                    top: 160px;
+                }
+            }
+
+            .Buy {
+                align-items: center;
+                width: 100%;
+                height: 46px;
+                background: #d9d9d9;
+                position: relative;
+                top: 196px;
+                color: #939393;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+
+
+            }
+
+            .Service {
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background: #e6e6e6;
+                position: relative;
+                top: 26px;
+                color: #787878;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+
+            .warranty {
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background: #d9d9d9;
+                position: relative;
+                top: 25px;
+                color: #939393;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+
+            .guide {
+                text-align: center;
+                width: 100%;
+                height: 46px;
+                background: #e6e6e6;
+                position: relative;
+                top: 25px;
+                color: #787878;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+
+            .Join {
+                position: relative;
+                top: 130px;
+
+
+                button {
+                    background: #27c7ab;
+                    border-radius: 5px;
+                    width: 122px;
+                    height: 34px;
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    position: relative;
+                    bottom: 95px;
+                    left: 105px;
+                }
+            }
+        }
+
+        .Advice:Before {
+            content: '';
+            border: solid 2px gray;
+            background: white;
+            padding: 19px;
+            border-radius: 100%;
+            position: relative;
+            left: 138px;
+            bottom: 22px;
+        }
+
+        .Advice:After {
+            content: " ";
+            border: solid 10px black;
+            border-radius: 50%;
+            position: relative;
+            left: 149px;
+            bottom: 130px;
+        }
+    }
+}

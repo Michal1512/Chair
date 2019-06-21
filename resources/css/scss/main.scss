@@ -3,6 +3,10 @@
 @import "main/fonts/fonts";
 @import "main/mixins";
 @import "main/common/Sos.scss";
+@import "main/Section1";
+@import "main/Section2";
+@import "main/Section3";
+@import "main/Section4_and_footer";
 
 html {
     -webkit-font-smoothing: antialiased; //OS X font-width fix

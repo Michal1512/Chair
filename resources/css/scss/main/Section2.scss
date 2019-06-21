@@ -1,0 +1,117 @@
+.main {
+    Width: 90%;
+    margin-top: 25px;
+    margin-left: 68px;
+    display: flex;
+    justify-content: center;
+
+    .CLAIR {
+        Height: 330px;
+        position: relative;
+        top: 10px;
+        right: 5px;
+
+        .White {
+            width: 355px;
+            height: 62px;
+            opacity: 0.42;
+            position: relative;
+            bottom: 70px;
+        }
+
+        .InWhite {
+
+            position: relative;
+            bottom: 130px;
+            left: 15px;
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20.37px;
+        }
+
+        .Blue {
+            width: 150px;
+            height: 7px;
+            background-color: #27c7ab;
+            position: relative;
+            bottom: 130px;
+        }
+    }
+
+    .MARGARITA {
+        position: relative;
+        top: 10px;
+        right: 5px;
+
+        .White {
+            width: 355px;
+            height: 62px;
+            opacity: 0.42;
+            position: relative;
+            bottom: 70px;
+
+        }
+
+        .InWhite {
+
+            position: relative;
+            bottom: 130px;
+            left: 15px;
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20.37px;
+        }
+
+        .Blue {
+            width: 150px;
+            height: 7px;
+            background-color: #27c7ab;
+            position: relative;
+            bottom: 130px;
+        }
+    }
+
+    .Finds {
+        position: relative;
+        top: 10px;
+        right: 5px;
+        width: 338px;
+        height: 252px;
+        border: 1px solid rgba(0, 0, 0, 0.14);
+
+        .InWhite {
+
+            position: relative;
+            top: 18px;
+            left: 20px;
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20.37px;
+        }
+
+        .Blue {
+            width: 140px;
+            height: 7px;
+            background-color: #27c7ab;
+            position: relative;
+            top: 46px;
+            left: 20px;
+        }
+
+        .Foot {
+
+            margin-left: 10px;
+            margin-right: 50px;
+            position: relative;
+            top: 50px;
+            left: 17px;
+
+            p {
+                margin-top: 30px;
+            }
+        }
+    }
+}
