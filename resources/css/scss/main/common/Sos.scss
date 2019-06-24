@@ -12,6 +12,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction:row;
 
         p {
             width: 98px;
@@ -37,23 +38,47 @@ header {
 
             display: flex;
             justify-content: flex-end;
+            align-items: center;
             background: black;
             color: white;
             position: relative;
             right: 50px;
             margin-right: 20px;
-            li:nth-child(1){
-                &:hover{
-                    opacity: 0;
-                    &:hover{
-                        padding: 40px;
-                        width: 10px;
-                        background-color: black;
-                        opacity: 1;
-                    }
-                }
-            }
-
+            //li:nth-child(1){
+            //    &:hover{
+            //        opacity: 0;
+            //        &:hover{
+            //            padding: 40px;
+            //            width: 10px;
+            //            background-color: black;
+            //            opacity: 1;
+            //        }
+            //    }
+            //}
+            //.dropbtn {
+            //    background-color: black;
+            //    color: white;
+            //    padding: 16px;
+            //    font-size: 16px;
+            //    border: none;}
+            //.dropdown {
+            //    position: relative;
+            //    display: inline-block;
+            //
+            //    .dropdown-content {
+            //        display: none;
+            //        position: absolute;
+            //        background-color: #f1f1f1;
+            //        min-width: 160px;
+            //        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            //        z-index: 1;
+            //        .dropdown-content a:hover {background-color: #ddd;}
+            //
+            //        .dropdown:hover .dropdown-content {display: block;}
+            //
+            //        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+            //    }
+            //}
             li {
                 align-items: center;
                 display: flex;
@@ -69,46 +94,57 @@ header {
 }
 
 
-@media (max-width: 680px) {
+@media (max-width: 850px) {
+    .sec1{
+     height:1000px;
+ }
     nav {
+
         height: 100px;
         Width: 100%;
         display: flex;
         flex-direction: column;
+
 
         p {
             margin-right: 120px;
             display: flex;
             justify-content: flex-start;
         }
-    }
-    ul {
-        display: flex;
-        background: green;
-        margin-left: 70px;
-    }
 
-    .Biggest {
+        ul {
+            display: flex;
+            background: green;
+            margin-left: 70px;
+        }
+    }
+    .sec1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+       height: 1000px;
+        background-image: linear-gradient(to top, #d0cfd7 0%, #eeeef0 34%, #fafafa 100%);
 
-        .First {
-
-            img {
-                display: flex;
-                justify-content: center;
-            }
+        .arrowleft{
+            position: absolute;
+            left:-130px !important;
+            top:450px !important;
         }
-
-        .Second {
-
-        }
-
-        .Third {
-
+        .Third{
+            position: absolute;
+            top:-300px;
 
         }
+        .arrowright{
+            position: absolute;
+            top:-540px !important;
+            left:300px !important;
+        }
+    }
+    .img_container{
+        position: absolute;
+        top:450px;
+        left:50px;
     }
 }

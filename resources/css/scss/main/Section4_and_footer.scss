@@ -19,16 +19,16 @@
             font-weight: 500;
             line-height: 20.37px;
             text-transform: uppercase;
-            position: absolute;
-            left: 150px;
-            top: 1655px;
+            position: relative;
+            left: 130px;
+            bottom: 195px;
         }
 
         .Blue {
             background-color: #27c7ab;
-            position: absolute;
-            left: 150px;
-            top: 1685px;
+            position: relative;
+            left: 130px;
+            bottom: 185px;
             width: 320px;
             height: 8px;
         }
@@ -37,9 +37,9 @@
             width: 633px;
             height: 64px;
             border: 1px solid rgba(36, 186, 160, 0.42);
-            position: absolute;
-            top: 1737px;
-            left: 148px;
+            position: relative;
+            bottom: 140px;
+            left: 126px;
 
             .Name {
                 color: #cacaca;
@@ -56,18 +56,17 @@
             width: 633px;
             height: 64px;
             border: 1px solid rgba(36, 186, 160, 0.42);
-            position: absolute;
-            top: 1829px;
-            left: 148px;
+            position: relative;
+            bottom: 109px;
+            left: 126px;
+
 
             .Email {
                 color: #cacaca;
                 font-size: 33px;
                 font-weight: 300;
                 line-height: 20.37px;
-                position: relative;
-                top: 20px;
-                left: 10px;
+
 
             }
         }
@@ -76,9 +75,9 @@
             width: 633px;
             height: 190px;
             border: 1px solid rgba(36, 186, 160, 0.42);
-            position: absolute;
-            top: 1920px;
-            left: 148px;
+            position: relative;
+            bottom: 88px;
+            left: 126px;
 
             .Message {
                 color: #cacaca;
@@ -104,131 +103,144 @@
         //    line-height: 21.37px;
         //}
     }
-}
 
-.Right {
-    width: 34%;
-    height: 655px;
 
-    .Chair {
+    .Right {
+        width: 34%;
+        height: 655px;
 
-        position: absolute;
-        top: 1700px;
-        left: 855px;
-    }
+        .Chair {
 
-    .Okimg {
+            position: relative;
+            bottom: 145px;
+            right: 25px;
+        }
 
-        .Personal {
-            width: 300px;
-            height: 42px;
-            position: absolute;
-            top: 1950px;
-            right: 150px;
+        .Okimg {
 
-            span {
-                color: #aeaeae;
-                font-size: 20px;
-                font-weight: 300;
-                line-height: 22.37px;
+            .Personal {
+                width: 300px;
+                height: 42px;
+                position: relative;
+
+                bottom: 110px;
+                left: 15px;
+
+                span {
+                    color: #aeaeae;
+                    font-size: 20px;
+                    font-weight: 300;
+                    line-height: 22.37px;
+
+                }
+            }
+
+            .Border {
+                width: 51px;
+                height: 47px;
+                border: 1px solid rgba(36, 186, 160, 0.42);
+                position: relative;
+                bottom: 155px;
+                right: 45px;
+
+                .Verified{
+
+                }
             }
         }
 
-        .Border {
-            width: 51px;
-            height: 47px;
-            border: 1px solid rgba(36, 186, 160, 0.42);
-            position: absolute;
-            top: 1950px;
-            right: 464px;
-        }
-    }
 
-    .Send {
-        position: absolute;
-        top: 2035px;
-        right: 170px;
-
-        button {
-            background-color: #27c7ab;
-            border-radius: 5px;
-            width: 343px;
-            height: 71px;
-            color: #ffffff;
-            font-size: 34px;
-            font-weight: 700;
-            line-height: 20.37px;
-            text-transform: uppercase;
-        }
-    }
-
-    footer {
-        width: 633px;
-        height: 190px;
-        position: absolute;
-        top: 2185px;
-        left: 145px;
-        color: #9b9b9b;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 21.37px;
-
-        .Ok {
+        .Send {
             position: relative;
-            left: 325px;
             top: 5px;
+            right: 0px;
+
+            button {
+                background-color: #27c7ab;
+                border-radius: 5px;
+                width: 343px;
+                height: 71px;
+                color: #ffffff;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 20.37px;
+                text-transform: uppercase;
+                position: relative;
+                bottom:120px;
+                right:50px;
+            }
         }
 
-        .Vimeo {
+        footer {
+            width: 633px;
+            height: 190px;
             position: relative;
-            left: 325px;
-            top: 5px;
-        }
-
-        .Print {
-            position: relative;
-            left: 325px;
-            top: 5px;
-        }
-
-        .Twitter {
-            position: relative;
-            left: 325px;
-            top: 5px;
-        }
-
-        .Sit {
+            bottom: 33px;
+            right: 750px;
             color: #9b9b9b;
-            font-size: 20px;
-            font-weight: 400;
+            font-size: 16px;
+            font-weight: 500;
             line-height: 21.37px;
-            text-transform: uppercase;
-            position: relative;
-            left: 385px;
-        }
 
-        .On {
-            color: #9b9b9b;
-            font-size: 20px;
-            line-height: 21.37px;
-            text-transform: uppercase;
-            font-weight: 600;
-            letter-spacing: 1px;
-            position: relative;
-            left: 386px;
+            .Ok {
+                position: relative;
+                left: 330px;
+                top: 5px;
+            }
 
-        }
+            .Vimeo {
+                position: relative;
+                left: 330px;
+                top: 5px;
+            }
 
-        .Chairfoot {
+            .Print {
+                position: relative;
+                left: 330px;
+                top: 5px;
+            }
 
-            color: #9b9b9b;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 21.37px;
-            text-transform: uppercase;
-            position: relative;
-            left: 990px;
-            bottom: 20px;
+            .Twitter {
+                position: relative;
+                left: 330px;
+                top: 5px;
+            }
+
+            .Sit {
+                color: #9b9b9b;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 21.37px;
+                text-transform: uppercase;
+                position: relative;
+                left:390px;
+                top:0px;
+            }
+
+            .On {
+                color: #9b9b9b;
+                font-size: 20px;
+                line-height: 21.37px;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 1px;
+                position: relative;
+                left: 395px;
+                bottom:0px;
+
+            }
+
+            .Chairfoot {
+
+                color: #9b9b9b;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 21.37px;
+                text-transform: uppercase;
+                position: relative;
+                left: 995px;
+                bottom: 22px;
+            }
         }
     }
 }

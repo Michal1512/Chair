@@ -1,16 +1,19 @@
 .sec1 {
     margin: 0 auto;
     Width: 100%;
-    padding: 120px 0;
+    height: 495px;
     background-image: linear-gradient(to top, #d0cfd7 0%, #eeeef0 34%, #fafafa 100%);
     display: flex;
 
-    .arrow{
-        width: 33px;
+    .arrowleft{
+        width: 33%;
         height: 42px;
         color: #24baa0;
         font-size: 78px;
         font-weight: 300;
+        position: relative;
+        left:200px;
+        top:200px;
     }
 
     .img_container {
@@ -31,7 +34,7 @@
 
 
     .Third {
-        Width: 28%;
+        Width: 34%;
         height: 500px;
         text-align: center;
         margin-top: 145px;
@@ -55,7 +58,7 @@
                 font-weight: 700;
             }
         }
-
+    }
         p {
             color: #000000;
             font-size: 14px;
@@ -84,5 +87,17 @@
                 text-transform: uppercase;
             }
         }
-    }
+
+        .arrowright{
+            width: 33%;
+            height: 42px;
+            color: #24baa0;
+            font-size: 78px;
+            font-weight: 300;
+            position: relative;
+            left:0px;
+            top:200px;
+        }
+
+
 }
