@@ -14,7 +14,7 @@ header {
         justify-content: space-between;
         flex-direction:row;
 
-        p {
+        .Highest{
             width: 98px;
             color: #ffffff;
             font-size: 14px;
@@ -94,28 +94,31 @@ header {
 }
 
 
-@media (max-width: 850px) {
-    .sec1{
-     height:1000px;
- }
-    nav {
+@media (max-width: 1244px) {
+    .sec1 {
+        height: 1000px;
+    }
+    .Nav {
 
         height: 100px;
         Width: 100%;
         display: flex;
+        justify-content: flex-start;
         flex-direction: column;
+        align-content: center;
 
 
-        p {
+        .Highest {
             margin-right: 120px;
             display: flex;
             justify-content: flex-start;
-        }
 
-        ul {
-            display: flex;
-            background: green;
-            margin-left: 70px;
+
+            ul {
+                display: flex;
+                background: green;
+                margin-left: 70px;
+            }
         }
     }
     .sec1 {
@@ -123,28 +126,74 @@ header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-       height: 1000px;
+        height: 1000px;
         background-image: linear-gradient(to top, #d0cfd7 0%, #eeeef0 34%, #fafafa 100%);
 
-        .arrowleft{
+        .arrowleft {
             position: absolute;
-            left:-130px !important;
-            top:450px !important;
+            left: -130px !important;
+            top: 410px !important;
+
+            .img_container {
+                position: relative;
+                top: 5500px !important;
+                right: 100px;
+            }
         }
-        .Third{
-            position: absolute;
-            top:-300px;
+
+        .Third {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: -300px;
+
 
         }
-        .arrowright{
+
+        .arrowright {
             position: absolute;
-            top:-540px !important;
-            left:300px !important;
+            top: -500px !important;
+            left: 350px !important;
         }
     }
-    .img_container{
-        position: absolute;
-        top:450px;
-        left:50px;
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .CLAIR {
+            margin-top: -20px;
+        }
+
+        .MARGARITA {
+            margin-top: -50px;
+        }
+
+        .Finds {
+            margin-top: -50px;
+        }
+    }
+    .background {
+        display: flex;
+      justify-content: center;
+        flex-direction:column;
+        .Prizes{}
+        .blue{}
+        .Entire{ display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            .Basic{
+                width:50px;
+                height:50px;
+            }
+
+
+        }
+
+
+
     }
 }
